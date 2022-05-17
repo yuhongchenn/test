@@ -1,0 +1,6 @@
+django url的处理过程
+
+经过uwsgi将http请求转化为httpRequest
+之后经过中间件处理，中间件可以修改请求，中间可以返回HttpResponse
+然后经过url路由匹配，找到对应的接口
+最后返回HttpResponse
