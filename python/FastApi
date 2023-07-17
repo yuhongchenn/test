@@ -1,0 +1,5 @@
+1. async await (如何异步)
+2. Pydantic （是什么，在sqlalchemy中怎么使用）
+3. 参数校验，能否返回自定义error
+4. uvicorn main:app --reload  (uvicorn 配置？进程线程？)
+5. https://fastapi.tiangolo.com/zh/ （官网，继续学习）
